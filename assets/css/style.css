@@ -1,0 +1,94 @@
+.navbar-brand {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.header {
+	background-image: linear-gradient(30deg, #4CB8C4, #3CD3AD);
+	width: 90%;
+	padding: 2em 0 2em 0;
+	margin: 5% auto;
+	border-radius: 1em;
+	box-shadow: 0 10px 20px rgba(60, 211, 173, .4);
+}
+
+.header .header-title {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+
+.header hr {
+	margin: .5em auto;
+	width: 60%;
+	border: 0.07em solid white;
+	border-radius: 0.07em;
+}
+
+.header .header-text {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: .9rem;
+}
+
+#bilal-text-area {
+	margin-bottom: 4em;
+}
+
+#bilal-text-area .item-text-row {
+	min-height: 10em;
+}
+
+#bilal-text-area .item-text-header {
+	display: block;
+	width: 97%;
+	margin: 1em auto;
+	padding: .5em;
+	border-radius: 2em;
+	background-color: rgba(76, 184, 196, .1);
+}
+
+#bilal-text-area .item-text-header .text-number{
+	display: inline-block;
+	padding: .3rem .8rem .3rem;
+	font-size: 1rem;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #32b8a6;
+	color: white;
+	border-radius: 50%;
+}
+
+#bilal-text-area .item-text-header .text-salam {
+	font-family: 'Ubuntu', sans-serif;
+	color: #32b8a6;
+	font-size: 1rem;
+	margin-left: .5rem;
+}
+
+#bilal-text-area .item-text-content {
+	width: 97%;
+	margin: auto;
+	text-align: right;
+	font-family: 'LPMQ', sans-serif;
+	font-size: 1.5rem;
+	line-height: 3.2rem;
+}
+
+#bilal-text-area .item-text-content hr {
+	width: 80%;
+	margin: 1em auto;
+	border: 1px solid #b4b8b6;
+	border-radius: 3rem;
+}
+
+#bilal-text-area .item-text-header.inverse {
+	background-color: #32b8a6;
+}
+
+#bilal-text-area .item-text-header.inverse .text-number {
+	background-color: white;
+	color: #32b8a6;
+}
+
+#bilal-text-area .item-text-header.inverse .text-salam {
+	color: white;
+}
